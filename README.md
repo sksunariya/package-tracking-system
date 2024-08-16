@@ -25,6 +25,6 @@ This is a demo package tracking and management system developed for Company X. T
   - Charlie: `charlie / charlie123`
 
 ## How to Run
-1. Clone the repository or download the ZIP file.
+1. Clone the repository.
 2. Open `index.html` in your browser.
-3. Use the provided login credentials to log in as
+3. Use the provided login credentials to log in.
