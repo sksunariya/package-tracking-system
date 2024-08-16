@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Dashboard</title>
+    <link rel="stylesheet" href="css/company.css">
+</head>
+<body>
+    <h1>Company Dashboard</h1>
+    <div id="company-operations">
+        <h2>Order Placement</h2>
+        <form id="order-form">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" required>
+            <label for="packageWeight">Package Weight (kg):</label>
+            <input type="number" id="packageWeight" required>
+            <label for="packageValue">Package Value ($):</label>
+            <input type="number" id="packageValue" required>
+            <button type="submit">Place Order</button>
+        </form>
+        <h2>Package Status Tracking</h2>
+        <div id="package-list"></div>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/company.js"></script>
+</body>
+</html>
